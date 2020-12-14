@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("https://cdn.jsdelivr.net/gh/waleslau/waleslau.github.io@master/assets/css/fontawesome-all.min.css");
 @import url("https://fonts.loli.net/css?family=Noto+Serif+SC:400,400italic,700,700italic");
 @import url("https://fonts.loli.net/css?family=Source+Code+Pro:400");
 @import url("https://fonts.loli.net/css?family=Source+Sans+Pro:300italic,600italic,300,600");
@@ -1279,7 +1279,7 @@ button {
 	-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 	-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-	background-image: url("../../images/bg2.jpg");
+	background-image: url("https://cdn.jsdelivr.net/gh/waleslau/waleslau.github.io@master/images/bg2.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
