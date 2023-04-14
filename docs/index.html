@@ -106,8 +106,13 @@
 
       <!-- Footer -->
       <footer id="footer">
-        <!-- <p id = "year" class="copyright">2018-2021 <a href="https://www.oopsky.top">OOPSKY</a>.</p> -->
-        <p id="site_date" class="copyright"></p>
+        <p id="year" class="copyright">
+          2018-
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          <a href="https://www.oopsky.top">OOPSKY</a>.
+        </p>
 
         <!-- <p class="copyright">
 				<a href="http://www.beian.gov.cn" target="_blank">豫ICP备xxxxxxx号</a>
@@ -119,12 +124,6 @@
     <div id="bg"></div>
 
     <!-- Scripts -->
-    <script>
-      var date = new Date();
-      var y = date.getFullYear();
-      document.getElementById("site_date").innerHTML =
-        "2018-" + y + ' <a href="https:\/\/www.oopsky.top">OOPSKY</a>.';
-    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
