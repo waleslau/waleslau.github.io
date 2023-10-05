@@ -1,9 +1,6 @@
 /* @import url("fontawesome-all.min.css"); */
 /* @import url("https://npm.elemecdn.com/fontawesome-free/css/all.min.css"); */
-@import url("https://npm.elemecdn.com/@fontsource/source-sans-pro/300-italic.css");
-@import url("https://npm.elemecdn.com/@fontsource/source-sans-pro/300.css");
-@import url("https://npm.elemecdn.com/@fontsource/source-sans-pro/600-italic.css");
-@import url("https://npm.elemecdn.com/@fontsource/source-sans-pro/600.css");
+@import url("https://registry.npmmirror.com/cn-fontsource-source-han-sans-sc-vf/latest/files/font.css");
 
 /*
 
@@ -235,7 +232,7 @@ input,
 select,
 textarea {
   color: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Han Sans SC VF", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.65;
